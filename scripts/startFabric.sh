@@ -25,7 +25,8 @@ pushd ../test-network
 ./network.sh down
 ./network.sh up createChannel -ca -s couchdb
 #./network.sh deployCC -ccn chat-app -ccl ${CC_SRC_LANGUAGE} -ccp ${CC_SRC_PATH}
-./network.sh deployCC -ccn birthcert -ccp ../chaincode/birthCert -ccl javascript -ccv 1 -cci initLedger 
+./network.sh deployCC -ccn birthcert -ccp ../chaincode/birthCert -ccl javascript -ccv 1 -cci initLedger
+./network.sh deployCC -ccn deathcert -ccp ../chaincode/deathCert -ccl javascript -ccv 1 -cci initLedger
 popd
 
 # creating the connection profile for SDK

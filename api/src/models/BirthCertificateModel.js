@@ -4,7 +4,7 @@ const Sequelize = require('sequelize')
 
 // Import sequelize object,
 // Database connection pool managed by Sequelize.
-const sequelize = require('../database/postgressdb.js')
+const sequelize = require('../database/postgreSQL.js')
 
 // Define method takes two arguments
 // 1st - name of table

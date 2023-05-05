@@ -7,4 +7,4 @@
 const BirthCert = require('./lib/birthCert');
 
 module.exports.BirthCert = BirthCert;
-module.exports.contracts = [ BirthCert ];
+module.exports.contracts = [ BirthCert];
